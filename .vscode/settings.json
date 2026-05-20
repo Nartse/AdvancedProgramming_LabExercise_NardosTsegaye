@@ -1,0 +1,17 @@
+{
+  "java.project.sourcePaths": [
+    "ChatApp/src",
+    "Poker/src",
+    "Notepad/src"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "ChatApp/lib/**/*.jar",
+    "Poker/lib/**/*.jar",
+    "Notepad/lib/**/*.jar",
+    "C:/Users/YODA_YOYO/Desktop/javafx-sdk-25.0.1/lib/*.jar"
+  ],
+  "java.compile.enablePreview": false,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC"
+}

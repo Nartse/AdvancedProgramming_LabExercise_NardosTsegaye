@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ChatApp: Server",
+      "request": "launch",
+      "mainClass": "server.ServerFXApp",
+      "cwd": "${workspaceFolder}/ChatApp",
+      "vmArgs": "--module-path \"C:\\Users\\YODA_YOYO\\Desktop\\javafx-sdk-25.0.1\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "ChatApp: Client",
+      "request": "launch",
+      "mainClass": "client.App",
+      "cwd": "${workspaceFolder}/ChatApp",
+      "vmArgs": "--module-path \"C:\\Users\\YODA_YOYO\\Desktop\\javafx-sdk-25.0.1\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "PokerGame: App",
+      "request": "launch",
+      "mainClass": "App",
+      "cwd": "${workspaceFolder}/Poker",
+      "vmArgs": "--module-path \"C:\\Users\\YODA_YOYO\\Desktop\\javafx-sdk-25.0.1\\lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "PokerGame: Launcher",
+      "request": "launch",
+      "mainClass": "Launcher",
+      "cwd": "${workspaceFolder}/Poker",
+      "vmArgs": "--module-path \"C:\\Users\\YODA_YOYO\\Desktop\\javafx-sdk-25.0.1\\lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+    },
+    {
+      "type": "java",
+      "name": "Notepad: Launch App",
+      "request": "launch",
+      "mainClass": "Notepad",
+      "cwd": "${workspaceFolder}/Notepad",
+      "vmArgs": "--module-path \"C:\\Users\\YODA_YOYO\\Desktop\\javafx-sdk-25.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
